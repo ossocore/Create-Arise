@@ -1,0 +1,16 @@
+filename = 'copycats-3.0.4+mc.1.21.1-neoforge.jar'
+name = 'Create: Copycats+'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '6a11d5806bcf521e08faba1ee6ef5f31af55ca0f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7251823
+project-id = 968398

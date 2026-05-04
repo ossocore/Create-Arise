@@ -1,0 +1,16 @@
+filename = 'drill_drain-1.0.13.jar'
+name = 'Create: Drill Drain'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '1a3ce81fde7b02072bdbb1b965ff14e82017ceb2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7300711
+project-id = 1281927

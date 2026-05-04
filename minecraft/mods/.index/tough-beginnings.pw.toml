@@ -1,0 +1,16 @@
+filename = 'tough_beginnings-1.9.4-neoforge-1.21.1.jar'
+name = 'Tough Beginnings'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'cef8e95ba644c068f2a8d538eb4988fd588f03f0'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5936270
+project-id = 884483

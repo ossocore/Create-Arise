@@ -1,0 +1,117 @@
+# ====================
+# Create : Arise - Minecraft Modpack
+# ====================
+# This .gitignore excludes user-specific, cache, generated, and
+# downloadable binary files. Mod JARs are downloaded via packwiz
+# on first boot using the metadata in minecraft/mods/.index/
+#
+# To set up after cloning:
+# 1. Import this folder as a PrismLauncher instance
+# 2. Launch Minecraft - mods will download automatically via packwiz-installer
+#    OR follow the instructions in README.md to set up the pre-launch command
+# 3. Download shader packs and resource packs manually (see README.md)
+
+# ====================
+# Minecraft World Saves
+# ====================
+minecraft/saves/
+
+# ====================
+# Logs & Crash Reports
+# ====================
+minecraft/logs/
+minecraft/crash-reports/
+
+# ====================
+# Screenshots
+# ====================
+minecraft/screenshots/
+
+# ====================
+# User-Specific Data
+# ====================
+minecraft/local/
+minecraft/moddata/
+minecraft/xaero/
+minecraft/XaeroWaypoints_BACKUP240807/
+minecraft/journeymap/
+
+# ====================
+# Downloads & Temp Files
+# ====================
+minecraft/downloads/
+minecraft/temp/
+
+# ====================
+# Server-Specific
+# ====================
+minecraft/server-resource-packs/
+
+# ====================
+# Essential Mod Runtime (caches, loader, libraries)
+# ====================
+minecraft/essential/
+
+# ====================
+# Mixin Debug Output
+# ====================
+minecraft/.mixin.out/
+
+# ====================
+# Generated Data
+# ====================
+minecraft/data/
+
+# ====================
+# User Config / Cache Files (root of minecraft/)
+# ====================
+minecraft/command_history.txt
+minecraft/emi.json
+minecraft/imgui.ini
+minecraft/ponders_watched.json
+minecraft/usercache.json
+minecraft/usernamecache.json
+
+# ====================
+# Mods - Downloaded via packwiz on first boot
+# Keep the .index/ metadata directory but exclude the actual JARs
+# ====================
+minecraft/mods/*.jar
+minecraft/mods/*.jar.disabled
+minecraft/mods/*.zip
+
+# ====================
+# Resource Packs - Download manually (see README.md)
+# ====================
+minecraft/resourcepacks/*.zip
+# ====================
+# Shader Packs - Download manually (see README.md)
+# ====================
+minecraft/shaderpacks/*.zip
+minecraft/shaderpacks/*/
+
+
+# ====================
+# Litematica Schematics
+# ====================
+minecraft/schematics/
+
+# ====================
+# OS-Specific Files
+# ====================
+Desktop.ini
+Thumbs.db
+.DS_Store
+*.lnk
+*.url
+
+# ====================
+# IDE Files
+# ====================
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+*~
+*.sublime-*

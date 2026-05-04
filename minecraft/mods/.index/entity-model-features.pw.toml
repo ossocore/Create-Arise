@@ -1,0 +1,16 @@
+filename = 'entity_model_features_1.21-neoforge-3.1.1.jar'
+name = '[EMF] Entity Model Features [Fabric & Forge]'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '351df74c0136efe5ba297e4d8d6cd2a40a79801e'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7938797
+project-id = 844662

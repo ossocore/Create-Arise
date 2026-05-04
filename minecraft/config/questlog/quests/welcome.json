@@ -1,0 +1,22 @@
+{
+  "requirements": [],
+  "objectives":[],
+  "rewards": [
+    {
+      "type": "questlog:item",
+      "item": "minecraft:bread",
+      "count": 2,
+      "name": "Bread x2"
+    }
+  ],
+  "title": "Welcome to Create: Arise",
+  "icon": "create:cogwheel",
+  "description":[
+    "Thank you for downloading the §lCreate: Arise§r modpack! \n",
+    "\n",
+    "This popup you are seeing is from the questing mod you will be using in this Modpack, called §lQuestlog§r.\n",
+    "\n",
+    "You can find the Questlog by clicking the §lbook icon§r in the top left of your inventory or by checking the assigned hotkey in the keybinds. (default: [^] or [´])"
+  ],
+  "chapter": "Humble_Beginnings"
+}

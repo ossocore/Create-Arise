@@ -1,0 +1,16 @@
+filename = 'backtobed-neoforge-1.21-1.2.0.jar'
+name = 'Back to Bed'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '32cba37dbe7be01cd3b9de8956c9813661df7879'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6491973
+project-id = 886555

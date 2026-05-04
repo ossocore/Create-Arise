@@ -1,0 +1,29 @@
+{
+  "requirements": [],
+  "objectives":[
+    {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:flint",
+      "required_amount": 2,
+      "name" : "Obtain 2 Flint"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:stick",
+      "required_amount": 2,
+      "name" : "Obtain 2 Sticks"
+    }
+  ],
+  "rewards": [],
+  "title": "Starting out",
+  "icon" : "minecraft:flint",
+  "description": [
+    "You might have already realised punching trees doesn't yield any results, thats because early progression has been reworked! \n",
+    "\n", 
+    "First you must gather some raw flint by mining §lgravel§r. \n",
+    "With that flint §lright click§r on a Rock until you get lucky and drop regular flint. \n",
+    "\n",
+    "You will also need some stick, destroy leaves until you drop some."
+  ],
+  "chapter": "Humble_Beginnings"
+}

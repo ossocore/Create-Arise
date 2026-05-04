@@ -1,0 +1,16 @@
+{
+
+  "name": "Humble Beginnings",
+
+  "translatable": false,
+
+  "icon": {
+    "item": "minecraft:wooden_pickaxe"
+  },
+
+  "order": 0,
+
+  "default_chapter": true,
+
+  "hidden": false
+}

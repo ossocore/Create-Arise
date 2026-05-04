@@ -1,0 +1,12 @@
+[pack]
+pack-format = "packwiz:pack-index-1.1.0"
+name = "Create : Arise"
+author = "Create : Arise Modpack Team"
+version = "1.0.0"
+
+[index]
+directory = "minecraft/mods/.index"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.227"

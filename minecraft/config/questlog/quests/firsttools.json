@@ -1,0 +1,35 @@
+{
+  "requirements": [
+    {
+        "type": "questlog:quest_complete",
+        "quest": "questlog:tough_beginnings"
+    }
+  ],
+  "objectives":[
+    {
+        "type": "questlog:item_craft",
+        "item": "tough_beginnings:flintknife",
+        "required_amount": 1,
+        "name" : "Craft a flint Knife"
+    },
+    {
+        "type": "questlog:item_craft",
+        "item": "tough_beginnings:flint_axe",
+        "required_amount": 1,
+        "name" : "Craft a flint Axe"
+    }
+  ],
+  "rewards": [],
+  "title": "First Tools",
+  "icon" : "tough_beginnings:flint_axe",
+  "description": [
+    "Now that you have some flint, craft it together with a stick and make a flint knife \n",
+    "\n", 
+    "Use that knife to cut some grass and get §lFiber Rope§r. \n",
+    "With that Fibre Rope, a Stick and a Flint you can now craft a §lFlint Axe §r\n",
+    "\n",
+    "You can now chop trees!"
+
+  ],
+  "chapter": "Humble_Beginnings"
+}

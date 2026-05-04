@@ -1,0 +1,16 @@
+filename = 'friendsandfoes-neoforge-4.0.24+mc1.21.1.jar'
+name = 'Friends&Foes (Forge/NeoForge)'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'fbf540b6902160afa33e71729c313c7cb2e49d93'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7972568
+project-id = 602059

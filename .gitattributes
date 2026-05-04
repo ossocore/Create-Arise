@@ -1,0 +1,29 @@
+# Auto-detect text files and normalize line endings
+* text=auto
+
+# Explicitly declare text files we want normalized
+*.json text
+*.toml text
+*.txt text
+*.md text
+*.cfg text
+*.properties text
+*.snbt text
+*.json5 text
+*.css text
+*.js text
+*.lang text
+*.java text
+
+# Declare files that should not be modified by Git
+*.jar binary
+*.zip binary
+*.png binary
+*.ico binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.slvlr binary
+*.mca binary
+*.nbt binary
+*.dat binary

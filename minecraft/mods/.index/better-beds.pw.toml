@@ -1,0 +1,16 @@
+filename = 'betterbeds-1.4.0.jar'
+name = 'Better Beds'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1', '1.21.2', '1.21.3' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '48f215da24598e4ad93efc7d0ca0a6f91660069f'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5437846
+project-id = 443782

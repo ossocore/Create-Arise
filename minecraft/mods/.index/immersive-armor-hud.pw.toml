@@ -1,0 +1,16 @@
+filename = 'immersivearmorhud-neoforge-1.0.1-1.21.1.jar'
+name = 'Immersive Armor HUD'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '8c16fb24c20330b19deb78d46dfddf7d3b00885b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6380202
+project-id = 1228923

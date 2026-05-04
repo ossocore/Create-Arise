@@ -1,0 +1,11 @@
+{
+  "requirements": [],
+  "objectives":[],
+  "rewards": [],
+  "title": "Modpack information",
+  "icon" : "minecraft:experience_bottle",
+  "description": [
+    "gotta put a bunch of general information here"
+  ],
+  "chapter": "Humble_Beginnings"
+}

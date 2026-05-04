@@ -1,0 +1,16 @@
+filename = 'champions-neoforge-1.21.1-2.1.11.3.jar'
+name = 'Champions Unofficial'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '74172f99c239a4e9bf3afae49f9f2edebebd8510'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6923189
+project-id = 1074990

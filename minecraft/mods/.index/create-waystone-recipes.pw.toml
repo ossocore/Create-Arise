@@ -1,0 +1,16 @@
+filename = 'Create_Waystone_Recipes_1.21_v3.jar'
+name = 'Create Waystone Recipes'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '98c9b9474734f8626cd5a66e8969684971a8a123'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6544263
+project-id = 1266793

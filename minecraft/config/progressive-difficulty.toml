@@ -1,0 +1,23 @@
+[nightmare]
+	#Default value 1
+	nightmare_attack_damage = 1.0
+	nightmare_max_health = 1.0
+	nightmare_max_armour = 1.0
+
+[hellspawn]
+	#Default value 2
+	hellspawn_attack_damage = 2.0
+	hellspawn_max_health = 2.0
+	hellspawn_max_armour = 2.0
+
+[apocalypse]
+	#Default value 3
+	apocalypse_attack_damage = 3.0
+	apocalypse_max_health = 3.0
+	apocalypse_max_armour = 3.0
+
+[imposible]
+	#Default value 4
+	imposible_attack_damage = 4.0
+	imposible_max_health = 4.0
+	imposible_max_armour = 4.0

@@ -1,0 +1,16 @@
+filename = 'nemos-inventory-sorting-NeoForge-1.21.1-1.8.2.1.jar'
+name = "Nemo's Inventory Sorting"
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '7da5cfba7dc968ee0587b375328acb124f655776'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6487633
+project-id = 1148320

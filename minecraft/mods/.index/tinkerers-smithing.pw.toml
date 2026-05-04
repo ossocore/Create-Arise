@@ -1,0 +1,16 @@
+filename = 'tinkerers-smithing-2.7.2+1.21.jar'
+name = "Tinkerer's Smithing"
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'ea40b32cd1af3b3d166f448063e03f7c808809ab'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 7883562
+project-id = 1506047
