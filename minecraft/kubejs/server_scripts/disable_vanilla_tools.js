@@ -36,20 +36,3 @@ BlockEvents.broken(event => {
         event.player.tell(Text.of('§c✖ Vanilla tools are unusable! Convert to Silent Gear at the Anvil.'));
     }
 });
-
-// ================================================================
-// Entity damage — cancel damage dealt by vanilla weapons.
-// This prevents combat use while still allowing the tool to be
-// held (so it's still visible in inventories / chest UI).
-// ================================================================
-EntityEvents.hurt(event => {
-    const { source } = event;
-    // Only cancel if the damage source is a player attacking with a vanilla weapon
-    if (!source.player) return;
-    const heldItem = source.player.mainHandItem;
-    if (heldItem.empty) return;
-    if (VANILLA_TOOLS.includes(heldItem.id)) {
-        event.cancel();
-        source.player.tell(Text.of('§c✖ Vanilla weapons are unusable! Convert to Silent Gear at the Anvil.'));
-    }
-});

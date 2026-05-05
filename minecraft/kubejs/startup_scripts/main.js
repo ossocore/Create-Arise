@@ -1,3 +1,6 @@
-// Visit the wiki for more info - https://kubejs.com/
-console.info('Hello, World! (Loaded startup example script)')
-
+// Infernal Catalyst — used to light obsidian nether portals
+StartupEvents.registry('item', event => {
+    event.create('infernal_catalyst')
+        .displayName('Infernal Catalyst')
+        .maxStackSize(16);
+});

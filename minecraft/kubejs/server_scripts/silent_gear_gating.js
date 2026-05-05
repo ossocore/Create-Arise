@@ -11,21 +11,7 @@ ServerEvents.recipes(event => {
     // ================================================================
     event.remove({ output: 'silentgear:stone_anvil' });
 
-    // ================================================================
-    // Add expensive recipe requiring Create Mechanical Press processing
-    // 
-    // The recipe requires Iron Sheets, which are made by pressing an
-    // Iron Ingot in the Mechanical Press. This naturally gates the anvil
-    // behind Create infrastructure without consuming the press itself.
-    //
-    // Cost breakdown:
-    //   3x Iron Block     = 27 iron ingots (matching vanilla anvil cost)
-    //   2x Iron Sheet     = 2 iron ingots pressed via Mechanical Press
-    //   1x Andesite Casing = Create component (andesite alloy + wood)
-    //   3x Smooth Stone   = base building material
-    //
-    // Total: ~29 iron ingots + create components = meaningful copper age gate
-    // ================================================================
+
     event.shaped('silentgear:stone_anvil', [
         'III',
         'SAS',
