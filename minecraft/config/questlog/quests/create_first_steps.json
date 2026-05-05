@@ -1,0 +1,33 @@
+{
+    "requirements": [
+        {
+            "type": "questlog:quest_complete",
+            "quest": "questlog:overgeared_copper"
+        }
+    ],
+    "objectives": [
+        {
+            "type": "questlog:item_craft",
+            "item": "create:mechanical_press",
+            "required_amount": 1,
+            "name": "Craft a Mechanical Press"
+        }
+    ],
+    "rewards": [],
+    "title": "Create: First Machine",
+    "icon": "create:mechanical_press",
+    "description": [
+        "Your copper tools can only take you so far. To reach iron tools, you'll need §lautomation§r.\n",
+        "\n",
+        "The key gate is the §lSilent Gear Anvil§r — a specialized crafting station. Its recipe is expensive and requires a §lCreate Mechanical Press§r to assemble.\n",
+        "\n",
+        "Start with the basics:\n",
+        "1. Gather §landesite§r, §lzinc§r, and §lcopper§r\n",
+        "2. Craft §landesite alloy§r\n",
+        "3. Build a §lWater Wheel§r for power\n",
+        "4. Craft a §lMechanical Press§r\n",
+        "\n",
+        "This is Create's §lAndesite Age§r — the foundation of everything you'll build later."
+    ],
+    "chapter": "Humble_Beginnings"
+}

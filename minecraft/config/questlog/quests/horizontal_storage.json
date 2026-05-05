@@ -1,0 +1,32 @@
+{
+    "requirements": [
+        {
+            "type": "questlog:quest_complete",
+            "quest": "questlog:overgeared_copper"
+        }
+    ],
+    "objectives": [
+        {
+            "type": "questlog:item_craft",
+            "item": "sophisticatedstorage:copper_chest",
+            "required_amount": 1,
+            "name": "Craft a Copper Chest"
+        }
+    ],
+    "rewards": [],
+    "title": "Horizontal: Better Storage",
+    "icon": "sophisticatedstorage:copper_chest",
+    "description": [
+        "While you're in the Copper Age, you'll accumulate a lot of materials. A single chest won't cut it.\n",
+        "\n",
+        "Sophisticated Storage gives you much better options:\n",
+        "• §lBasic Chest§r (27 slots) — wood\n",
+        "• §lCopper Chest§r (36 slots) — copper\n",
+        "• §lIron Chest§r (45 slots) — iron (gated behind, well, iron)\n",
+        "\n",
+        "Upgrade your storage! Copper chests are a great mid-point. You can also upgrade existing chests by shift+right-clicking with the upgrade item.\n",
+        "\n",
+        "Later, Sophisticated Backpacks will give you portable storage too."
+    ],
+    "chapter": "Humble_Beginnings"
+}

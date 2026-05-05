@@ -1,0 +1,32 @@
+{
+    "requirements": [
+        {
+            "type": "questlog:quest_complete",
+            "quest": "questlog:create_first_steps"
+        }
+    ],
+    "objectives": [
+        {
+            "type": "questlog:item_craft",
+            "item": "silentgear:stone_anvil",
+            "required_amount": 1,
+            "name": "Craft the Silent Gear Anvil"
+        }
+    ],
+    "rewards": [],
+    "title": "The Silent Gear Anvil",
+    "icon": "silentgear:stone_anvil",
+    "description": [
+        "This is the big one. The §lSilent Gear Anvil§r is your gateway to iron tools and beyond.\n",
+        "\n",
+        "Unlike Overgeared's simple stone anvil, this requires serious infrastructure:\n",
+        "• Its recipe is §lexpensive§r — think vanilla anvil levels of material cost\n",
+        "• It requires a §lCreate Mechanical Press§r to assemble\n",
+        "• You'll need to set up basic Create automation to power the press\n",
+        "\n",
+        "Once you have this anvil, you can craft §lSilent Gear§r tools — a modular gear system that lets you combine materials for custom properties.\n",
+        "\n",
+        "This is the moment you transition from §lmanual crafting§r (Overgeared) to §lindustrial fabrication§r (Silent Gear + Create)."
+    ],
+    "chapter": "Humble_Beginnings"
+}

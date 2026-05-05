@@ -1,0 +1,31 @@
+{
+    "requirements": [
+        {
+            "type": "questlog:quest_complete",
+            "quest": "questlog:overgeared_stone"
+        }
+    ],
+    "objectives": [
+        {
+            "type": "questlog:item_craft",
+            "item": "overgeared:copper_pickaxe",
+            "required_amount": 1,
+            "name": "Craft a Copper Pickaxe via Overgeared"
+        }
+    ],
+    "rewards": [],
+    "title": "Overgeared: Copper Age",
+    "icon": "overgeared:copper_pickaxe",
+    "description": [
+        "You've got your stone tools — good. Now it's time for an upgrade.\n",
+        "\n",
+        "Mine some §lcopper ore§r and smelt it into ingots. Then use the Overgeared system again (clay molds → cast → forge) to create a §lcopper pickaxe§r.\n",
+        "\n",
+        "Why copper? Because your stone pickaxe can't break iron ore — §lcopper is the minimum harvest level for iron§r in this pack.\n",
+        "\n",
+        "This is the start of the §lCopper Age§r. You'll be spending a while here, building up infrastructure before you can reach iron. Use this time wisely!\n",
+        "\n",
+        "Tip: Overgeared quality matters. Try to craft a Well or Expert quality tool for better mining speed and durability."
+    ],
+    "chapter": "Humble_Beginnings"
+}

@@ -1,0 +1,32 @@
+{
+    "requirements": [
+        {
+            "type": "questlog:quest_complete",
+            "quest": "questlog:overgeared_copper"
+        }
+    ],
+    "objectives": [
+        {
+            "type": "questlog:item_craft",
+            "item": "gliders:glider",
+            "required_amount": 1,
+            "name": "Craft a Glider"
+        }
+    ],
+    "rewards": [],
+    "title": "Horizontal: Glider",
+    "icon": "gliders:glider",
+    "description": [
+        "Exploration on foot is slow. A §lGlider§r gives you a massive mobility boost.\n",
+        "\n",
+        "Craft one with wood, leather (or phantom membrane), and some string. You can deploy it mid-air to glide long distances.\n",
+        "\n",
+        "This is especially useful for:\n",
+        "• Exploring the §lTectonic§r mountain ranges\n",
+        "• Scouting for copper and andesite deposits\n",
+        "• Avoiding fall damage while building\n",
+        "\n",
+        "Later, you can upgrade to reinforced gliders and eventually a §lCreate Jetpack§r."
+    ],
+    "chapter": "Humble_Beginnings"
+}

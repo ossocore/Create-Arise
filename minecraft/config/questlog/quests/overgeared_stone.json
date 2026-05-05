@@ -1,0 +1,30 @@
+{
+    "requirements": [
+        {
+            "type": "questlog:quest_complete",
+            "quest": "questlog:firsttools"
+        }
+    ],
+    "objectives": [
+        {
+            "type": "questlog:item_craft",
+            "item": "overgeared:stone_pickaxe",
+            "required_amount": 1,
+            "name": "Craft a Stone Pickaxe via Overgeared"
+        }
+    ],
+    "rewards": [],
+    "title": "Overgeared: Stone Tools",
+    "icon": "overgeared:stone_pickaxe",
+    "description": [
+        "With a flint axe you can now gather wood and build a shelter. But to really progress, you need proper tools.\n",
+        "\n",
+        "Mine some §lstone§r — Overgeared changes what drops: instead of cobblestone, you'll get §lknappable rock§r.\n",
+        "\n",
+        "To use it, §lshift+right-click§r on a stone block to place the §lStone Smithing Anvil§r.\n",
+        "Then craft clay molds, smelt them in a furnace to get tool casts, and forge your first §lstone pickaxe§r.\n",
+        "\n",
+        "With a stone pickaxe you can mine copper, but NOT iron — for that you'll need copper tools first."
+    ],
+    "chapter": "Humble_Beginnings"
+}

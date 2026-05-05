@@ -1,0 +1,37 @@
+{
+    "requirements": [
+        {
+            "type": "questlog:quest_complete",
+            "quest": "questlog:silent_gear_anvil"
+        }
+    ],
+    "objectives": [
+        {
+            "type": "questlog:item_craft",
+            "item": "silentgear:pickaxe",
+            "required_amount": 1,
+            "name": "Craft a Silent Gear Iron Pickaxe"
+        }
+    ],
+    "rewards": [],
+    "title": "Iron at Last!",
+    "icon": "silentgear:pickaxe",
+    "description": [
+        "With the Silent Gear Anvil built, you can finally mine §liron ore§r and craft §lSilent Gear§r tools.\n",
+        "\n",
+        "Silent Gear is a modular system:\n",
+        "• You craft §ltool rods§r (handle), §lpickaxe heads§r (tip), and other parts\n",
+        "• Combine them at the anvil to create a complete tool\n",
+        "• Different materials give different stats, traits, and harvest levels\n",
+        "• You can repair, upgrade, and swap parts later\n",
+        "\n",
+        "Start with iron — it's your first real mining tier. From here, the world opens up:\n",
+        "• §lSophisticated Storage§r iron chests\n",
+        "• §lSophisticated Backpacks§r upgrades\n",
+        "• §lGliders§r for exploration\n",
+        "• And eventually: §lautomation§r on a massive scale\n",
+        "\n",
+        "Overgeared has served its purpose. Welcome to the industrial age."
+    ],
+    "chapter": "Humble_Beginnings"
+}

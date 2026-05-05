@@ -1,0 +1,29 @@
+{
+    "requirements": [
+        {
+            "type": "questlog:quest_complete",
+            "quest": "questlog:overgeared_copper"
+        }
+    ],
+    "objectives": [
+        {
+            "type": "questlog:item_craft",
+            "item": "minecraft:bread",
+            "required_amount": 1,
+            "name": "Craft Bread"
+        }
+    ],
+    "rewards": [],
+    "title": "Horizontal: Food & Farming",
+    "icon": "minecraft:bread",
+    "description": [
+        "Don't neglect your stomach! The Copper Age is a great time to set up a small farm.\n",
+        "\n",
+        "With §lSpice of Life: Carrot Edition§r, eating a variety of foods gives you health bonuses. Try to collect at least 5-10 different food types.\n",
+        "\n",
+        "§lCreate: Food§r and §lCreate: The Factory Must Grow§r will eventually let you automate food production — but for now, a simple wheat farm and some animal pens will do.\n",
+        "\n",
+        "Cooked meat, bread, stews — variety is the key to survival!"
+    ],
+    "chapter": "Humble_Beginnings"
+}
