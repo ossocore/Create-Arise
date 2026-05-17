@@ -32,7 +32,7 @@ A Minecraft 1.21.1 NeoForge modpack for PrismLauncher.
      ```
    - Click **Close**
 
-4. **Launch the instance** — `packwiz-installer` will download all 151 mods automatically on first launch. This may take a few minutes.
+4. **Launch the instance** — `packwiz-installer` will download all 168 mods automatically on first launch. This may take a few minutes.
 
 5. **(Optional) Download shader packs and resource packs:**
    See the "Optional Add-ons" section below.
@@ -80,6 +80,16 @@ To add a new mod manually:
 1. Use `packwiz curseforge add <project-id>` (requires [packwiz CLI](https://github.com/packwiz/packwiz))
 2. Commit the new `.pw.toml` file
 
+## Modlist
+
+[`modlist.html`](modlist.html) is an auto-generated HTML file listing every mod in the pack. To regenerate it after adding/removing mods:
+
+```bash
+python scripts/generate-modlist.py
+```
+
+> **Note:** The script reads the `.pw.toml` metadata files in `minecraft/mods/.index/` — you don't need the packwiz CLI installed. [Python 3](https://www.python.org/downloads/) is required.
+
 ## Repository Structure
 
 ```
@@ -96,7 +106,9 @@ Create - Arise/
 │   ├── config/                        # All mod configs (tracked in git)
 │   ├── kubejs/                        # KubeJS scripts (tracked in git)
 │   ├── mods/
-│   │   └── .index/                    # Packwiz metadata for all 151 mods
+│   │   └── .index/                    # Packwiz metadata for all 168 mods
+│   ├── scripts/                       # Utility scripts
+│   │   └── generate-modlist.py        # Regenerates modlist.html
 │   ├── resourcepacks/                 # (excluded — add manually)
 │   └── shaderpacks/                   # (excluded — add manually)
 └── .gitignore

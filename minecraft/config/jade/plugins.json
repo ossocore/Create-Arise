@@ -53,7 +53,8 @@
     "chiseled_bookshelf": true
   },
   "champions": {
-    "enable_affix_compact": true
+    "entity_affixes": true,
+    "entity_champion_property": true
   },
   "jadeaddons": {
     "equipment_requirement": ""
@@ -74,6 +75,11 @@
     "block": true,
     "entity": true,
     "entity_variant": true
+  },
+  "toms_storage": {
+    "inventory_hopper": true,
+    "inventory_config": true,
+    "inventory_connector": true
   },
   "jade": {
     "coordinates.rel": false,

@@ -1,4 +1,4 @@
 {
-  "particleLimit": 5000,
+  "particleLimit": 2000,
   "smartCameraCulling": true
 }

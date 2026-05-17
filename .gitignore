@@ -23,6 +23,13 @@ minecraft/logs/
 minecraft/crash-reports/
 
 # ====================
+# Runtime Logs & Crash Dumps
+# ====================
+minecraft/fabricloader.log
+minecraft/hs_err_pid*.log
+minecraft/hs_err_pid*.mdmp
+
+# ====================
 # Screenshots
 # ====================
 minecraft/screenshots/
@@ -63,14 +70,41 @@ minecraft/.mixin.out/
 minecraft/data/
 
 # ====================
+# Mod Runtime Cache
+# ====================
+minecraft/cache/
+
+# ====================
+# Sinytra Connector (runtime patched jars, generated files)
+# ====================
+minecraft/mods/.connector/
+
+# ====================
+# Sable Mod Runtime
+# ====================
+minecraft/.sable/
+
+# ====================
 # User Config / Cache Files (root of minecraft/)
 # ====================
 minecraft/command_history.txt
 minecraft/emi.json
 minecraft/imgui.ini
+minecraft/options.txt
 minecraft/ponders_watched.json
 minecraft/usercache.json
 minecraft/usernamecache.json
+
+# ====================
+# Backup Config Files
+# ====================
+*.bak
+*.bak_*
+
+# ====================
+# Duplicate / Orphaned Mod Files
+# ====================
+*.jar.duplicate
 
 # ====================
 # Mods - Downloaded via packwiz on first boot

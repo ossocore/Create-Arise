@@ -37,4 +37,37 @@ ServerEvents.recipes(event => {
         B: 'minecraft:iron_nugget'
     });
 
+    event.remove({ output: 'toms_storage:storage_terminal' });
+
+    //new storage terminal recipe
+    event.shaped('toms_storage:storage_terminal', [
+        'ABA',
+        'CDE',
+        'ABA'
+    ], {
+        A: 'create:andesite_casing',
+        B: 'minecraft:dried_kelp',
+        C: '#minecraft:chests',
+        D: 'minecraft:redstone',
+        E: 'minecraft:glass'
+    });
+
+
+    //remove old physics assembler recipe
+    event.remove({ output: 'simulated:physics_assembler' })
+
+    //new physics assembler recipe
+    event.shaped('simulated:physics_assembler', [
+        'XAX',
+        'BCB',
+        'DED'
+    ], {
+        A: 'create:analog_lever',
+        B: 'create:andesite_casing',
+        C: 'simulated:spring',
+        D: 'create:cardboard_block',
+        E: 'minecraft:iron_block',
+        X: 'minecraft:cobblestone'
+    });
+
 });

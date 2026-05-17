@@ -13,6 +13,6 @@
   },
   "debugMode": {
     "desc:": "Enables debug mode, which displays how many sections are being hidden(A section is an area of 16x16x16 blocks) default:false",
-    "debugMode": false
+    "debugMode": true
   }
 }
